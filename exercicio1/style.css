@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h5, h6, p {
+    color: darkorange;
+}
+
+/* ---------------------- */
+
+
+.texto-com-background{
+    background-color: yellow;
+}
+
+/* OUTRA OPÇÃO */
+/* h2.texto-com-background{
+    background-color: yellow;
+} */
+
+/* ---------------------- */
+
+
+#texto-com-outra-cor{
+    color:green
+}
+
+/* OUTRA OPÇÃO */
+/* h2.texto-com-background#texto-com-outra-cor{
+    background-color: yellow;
+} */
