@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
   }
+
   body{
     font-family: sans-serif;
     background-color: #004643;
@@ -11,11 +12,13 @@
     padding: 20px;
     color: #abd1c6;
   }
+
   main{
     height: 1200px;
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    /* position: relative; */
   }
   
   section{
@@ -24,14 +27,42 @@
     background-color: white;
     padding: 20px;
     margin: 10px 0;
+    padding-top: 10vh; 
   }
   
+  .texto-centralizado {
+    text-align: center;
+  }
+
+  section:active{
+    background-color: green;
+  }
+
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
   }
+
+  /* Opção de criara a tag class="sticky" depois da nav no HTML
+    .sticky{
+      position: sticky;
+      top: 0;
+    } */
   
   footer{
     background-color: #abd1c6;
     padding: 20px;
+    text-align: center;
+  }
+
+  footer:hover{
+    background-color: yellow;
+  }
+
+  aside{
+    position: absolute;
+    bottom: -90vh;
+    right: 1vw;
   }
